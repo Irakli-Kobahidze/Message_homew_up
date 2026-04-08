@@ -414,5 +414,64 @@ FodyWeavers.xsd
 *.cab
 *.msi
 *.msix
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results (Windows)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.map
+*.lib
+
+# Linux/Mac build files
+*.o
+*.a
+*.so
+*.dylib
+chat_app
+network_chat
+Network_chat
+*.out
+
+# Executables (any OS)
+*.exe
+*.app
+
+# Data files created by the program
+user_data.txt
+msg_data.txt
+chat_log.txt
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# IDE specific (if using other IDEs)
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
 *.msm
 *.msp
